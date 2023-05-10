@@ -1,1 +1,20 @@
+public class OperatorsHomeworkII {
+    public static void main(String[] args) {
+        int num1 = 9;
+        int num2 = 3;
+        int num3 = 8;
+        int num4 = 4;
 
+        // Decrease 9 by 1, and print updated value
+        num1--;
+        System.out.println("After decrement, num1 is: " + num1);
+
+        // Check if 9+3 is greater than 8+4
+        boolean isGreater = num1 + num2 > num3 + num4;
+        System.out.println("9+3 is greater than 8+4: " + isGreater);
+
+        // Check if 9+3 is equal to 8+4
+        boolean isEqual = num1 + num2 == num3 + num4;
+        System.out.println("9+3 is equal to 8+4: " + isEqual);
+    }
+}
